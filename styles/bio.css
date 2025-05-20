@@ -1,0 +1,94 @@
+html, body {
+  height: 1200px;
+}
+
+.grid-container {
+  margin: 20px 200px;
+
+  height: 100%;
+  width: 900px;
+  z-index: 2;
+  position: absolute;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox-1 {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.body-title, .body-subtitle, .body-graphic, .body-paragraph {
+  margin-left: 20px;
+  opacity: 0;
+}
+
+.body-title {
+  font-size: 72px;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+.body-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-graphic {
+  height: 1px;
+  width: 700px;
+  background-color: #ec7fa9;
+  z-index: 3;
+
+  margin-top: 2%;
+
+  animation: lineFlyIn 1s ease forwards;
+}
+
+.body-paragraph {
+  padding: 6% 0%;
+  line-height:30px;
+  font-size: 18px;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 2s forwards;
+}
+
+.square-figure-1 {
+  position: relative;
+  z-index: 2;
+  background-color: #ffb8e0;
+  width: 70px;
+  height: 70px;
+  opacity: 0;
+
+  float: right;
+  margin: -40px;
+  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
+}
+
+
+.scrolling-text-container {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  z-index: 5;
+  background-color:gray;
+}
+.scrolling-text {
+  overflow: clip;
+  font-size: 150px;
+  transform: rotate(-45deg);
+}
+
+.scrolling-text-track {
+  width: max-content;
+  animation: scrolling-text-move 10s linear infinite;
+
+}
+
+@keyframes scrolling-text-move {
+  to {
+    transform: translateX(-34%);
+  }
+}

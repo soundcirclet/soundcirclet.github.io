@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+
+.grid-container {
+  margin: 20px 200px;
+
+  height: 800px;
+  width: 1500px;
+  z-index: 2;
+  position: absolute;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.textbox-1 {
+  width: 800px;
+  margin-top: 140px;
+}
+.textbox-2 {
+  width: 800px;
+  width: 500px;
+}
+
+.body-title, .body-subtitle, .body-graphic, .body-paragraph {
+  margin-left: 20px;
+  opacity: 0;
+}
+
+.body-title {
+  font-size: 72px;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+.body-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-graphic {
+  height: 1px;
+  width: 700px;
+  background-color: #ec7fa9;
+  z-index: 3;
+
+  margin-top: 2%;
+
+  animation: lineFlyIn 1s ease forwards;
+}
+
+.body-paragraph {
+  padding: 3% 0%;
+  line-height: 48px;
+  font-size: 24px;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 2s forwards;
+}
+
+.square-figure-1 {
+  position: relative;
+  z-index: 2;
+  background-color: #ffb8e0;
+  width: 70px;
+  height: 70px;
+  opacity: 0;
+
+  float: right;
+  margin: -40px;
+  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
+}
+
