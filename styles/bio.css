@@ -1,22 +1,30 @@
 html, body {
-  height: 1200px;
+  height: 1300px;
 }
 
 .grid-container {
-  margin: 20px 200px;
+  flex: 2px;
 
   height: 100%;
-  width: 900px;
+  width: 100%;
   z-index: 2;
   position: absolute;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  column-gap: 5%;
 }
 
 .textbox-1 {
-  width: 100%;
+  width: 900px;
   margin-top: 60px;
+  margin-left: 200px;
+}
+
+.textbox-2 {
+  width: 35%;
+  margin-top: 60px;
+  margin-right: 200px;
 }
 
 .body-title, .body-subtitle, .body-graphic, .body-paragraph {
@@ -78,7 +86,7 @@ html, body {
 .scrolling-text {
   overflow: clip;
   font-size: 150px;
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
 }
 
 .scrolling-text-track {
@@ -89,6 +97,6 @@ html, body {
 
 @keyframes scrolling-text-move {
   to {
-    transform: translateX(-34%);
+    transform: translateX(-25.34%);
   }
 }
