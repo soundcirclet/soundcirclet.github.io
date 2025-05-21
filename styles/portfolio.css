@@ -1,5 +1,5 @@
 html, body {
-  height: 1300px;
+  height: 1250px;
 }
 
 .grid-container {
@@ -11,20 +11,19 @@ html, body {
   position: absolute;
 
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
   column-gap: 5%;
 }
 
 .textbox-1 {
-  width: 900px;
+  width: 1000px;
   margin-top: 100px;
-  margin-left: 200px;
 }
 
 .textbox-2 {
-  width: 35%;
+  width: 1000px;
   margin-top: 100px;
-  margin-right: 200px;
 }
 
 .body-title, .body-subtitle, .body-graphic, .body-paragraph {
