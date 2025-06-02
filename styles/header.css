@@ -7,26 +7,15 @@
   border-top: 0.5vh solid #ffb8e0;
   border-bottom: 1px solid #ec7fa9;
   background-color:white;
-  height: 5.25vw;
+  height: 4vw;
   width: 100%;
 }
-
-@media only screen and (max-width: 1600px) {
-  .logo-container, .header-navbar {
-    margin-left: 0;
-    margin-right: 0;  
-    color: red;
-    font-size: 2px;
-  }
-
-}
-
 
 .logo-container {
   vertical-align: top;
   display: flex;
   text-align: center;
-  margin: 0 200px;
+  margin: 0 10.417vw;
 
   width: 400px;
   font-size: 2.5vw;
@@ -43,11 +32,12 @@
   vertical-align: top;
   display: flex;
   text-align: center;
-  margin: 0 200px;
+  margin: 0 10.417vw;
 
-  width: 785px;
+  width: 40.885vw;
   font-size: 1.25vw;
   font-weight: 300;
+  transition: font-size 80ms ease-in;
 }
 
   .header-button {
@@ -64,3 +54,13 @@
 
     transition: opacity 200ms;
   }
+
+
+
+@media only screen and (max-width: 1600px) {
+  .header-navbar {
+    color: red;
+    font-size: 1vw;
+    transition: font-size 80ms ease-in;
+  }
+}
