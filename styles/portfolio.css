@@ -1,5 +1,5 @@
 html, body {
-  height: 1250px;
+  height: 2000px;
 }
 
 .grid-container {
@@ -13,53 +13,30 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  column-gap: 5%;
+  column-gap: 2%;
 }
 
-.textbox-1 {
-  width: 1000px;
+.textbox-1, .textbox-2 {
+  height: 100%;
+  width: 52vw;
   margin-top: 100px;
 }
+  .video-container {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 4%;
+    width: 100%;
+  }
 
-.textbox-2 {
-  width: 1000px;
-  margin-top: 100px;
-}
+  .video-title {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    animation: elementFadeIn 1s ease 1.6s forwards;
+  }
 
-.body-title, .body-subtitle, .body-graphic, .body-paragraph {
-  margin-left: 20px;
-  opacity: 0;
-}
-
-.body-title {
-  font-size: 72px;
-  font-weight: 600;
-  animation: elementFadeIn 1s ease 1.6s forwards;
-}
-.body-subtitle {
-  font-size: 24px;
-  font-weight: 300;
-  animation: elementFadeIn 1s ease 1.6s forwards;
-}
-
-.body-graphic {
-  height: 1px;
-  width: 700px;
-  background-color: #ec7fa9;
-  z-index: 3;
-
-  margin-top: 2%;
-
-  animation: lineFlyIn 1s ease forwards;
-}
-
-.body-paragraph {
-  padding: 6% 0%;
-  line-height:30px;
-  font-size: 18px;
-  font-weight: 300;
-  animation: elementFadeIn 1s ease 2s forwards;
-}
 
 .square-figure-1 {
   position: relative;

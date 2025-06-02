@@ -4,10 +4,10 @@
   justify-content: space-between;
   z-index: 10;
 
-  border-top: 15px solid #ffb8e0;
+  border-top: 0.5vh solid #ffb8e0;
   border-bottom: 1px solid #ec7fa9;
   background-color:white;
-  height: 115px;
+  height: 5.25vw;
   width: 100%;
 }
 
@@ -16,6 +16,7 @@
     margin-left: 0;
     margin-right: 0;  
     color: red;
+    font-size: 2px;
   }
 
 }
@@ -28,7 +29,7 @@
   margin: 0 200px;
 
   width: 400px;
-  font-size: 48px;
+  font-size: 2.5vw;
 }
   .website-logo {
     justify-content: center;
@@ -45,7 +46,7 @@
   margin: 0 200px;
 
   width: 785px;
-  font-size: 24px;
+  font-size: 1.25vw;
   font-weight: 300;
 }
 

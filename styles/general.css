@@ -37,8 +37,6 @@ main {
   position:fixed;
 }
 
-
-
 footer {
   background-color: white;
   border-top: 1px solid #ec7fa9;
@@ -50,7 +48,54 @@ footer {
   margin-top: auto;
 }
 
-
 .page-transition {
   position: fixed;
 }
+
+/* Text formatting */
+
+.body-title, .body-subtitle, .body-graphic, .body-paragraph {
+  margin-left: 20px;
+  opacity: 0;
+}
+
+.body-title {
+  font-size: 72px;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-header1 {
+  font-size: 36px;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-graphic {
+  height: 1px;
+  width: 700px;
+  background-color: #ec7fa9;
+  z-index: 3;
+
+  margin-top: 2%;
+
+  animation: lineFlyIn 1s ease forwards;
+}
+
+.body-paragraph {
+  padding: 6% 0%;
+  line-height:30px;
+  font-size: 18px;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 2s forwards;
+}
+
+
+
+
