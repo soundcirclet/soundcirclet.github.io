@@ -47,9 +47,3 @@
     transform: rotate(360deg)
   }
 }
-
-@keyframes scrolling-text-move {
-  to {
-    transform: translateX(-25.34%);
-  }
-}

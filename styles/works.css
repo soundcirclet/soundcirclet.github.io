@@ -48,7 +48,6 @@ html, body {
   .thumbnail-overlay {
     position: absolute;
     background-color: #ec7fa9;
-    opacity: 0.9;
 
     bottom: 0;
     left: 100%;
@@ -58,6 +57,23 @@ html, body {
     height: 100%;
     transition: .5s ease;
   }
+
+  .overlay-text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+    .overlay-description {
+      font-size: 12px;
+      font-style: italic;
+    }
 
   .thumbnail-container:hover .thumbnail-overlay {
     width: 100%;
@@ -105,3 +121,8 @@ html, body {
   animation: scrolling-text-move 10s linear infinite;
 }
 
+@keyframes scrolling-text-move {
+  to {
+    transform: translateX(-17%);
+  }
+}
