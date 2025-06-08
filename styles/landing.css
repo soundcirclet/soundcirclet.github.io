@@ -6,13 +6,25 @@ html, body {
   margin: 20px 200px;
 
   height: 800px;
-  width: 1500px;
+  width: 1000px;
   z-index: 2;
   position: absolute;
 
   display: flex;
   justify-content: center;
 }
+
+ @media only screen and (max-width: 600px) {
+  .grid-container {
+  margin: 20px 0;
+  }
+
+
+ }
+
+
+
+
 
 .textbox-1 {
   width: 800px;
