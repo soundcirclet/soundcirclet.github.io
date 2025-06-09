@@ -21,7 +21,7 @@ body {
   min-height: 100dvh;
 
   font-family: Lexend, Arial;
-  font-size: 0.625vw;
+  font-size: 12px;
   color: #ec7fa9;
 
   background-image: url(../assets/large-triangles.svg);
@@ -53,7 +53,7 @@ footer {
   text-align: center;
   align-content: center;
   z-index: 10;
-  font-size: 0.625vw;
+  font-size: 12px;
 
   margin-top: auto;
 }
@@ -70,20 +70,20 @@ footer {
 }
 
 .body-title {
-  font-size: 3.75vw;
+  font-size: 4.5rem;
   font-weight: 600;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
 
 .body-header1 {
   margin-top: 100px;
-  font-size: 1.875vw;
+  font-size: 2.25rem;
   font-weight: 600;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
 
 .body-subtitle {
-  font-size: 1.25vw;
+  font-size: 1.5rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
@@ -102,7 +102,7 @@ footer {
 .body-paragraph {
   padding: 6% 0%;
   line-height:30px;
-  font-size: 0.938vw;
+  font-size: 1.125rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 2s forwards;
 }

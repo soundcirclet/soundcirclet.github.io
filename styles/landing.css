@@ -15,7 +15,6 @@ html, body {
 
  @media only screen and (max-width: 600px) {
 
-
   footer {
     display: none;
   }
@@ -29,7 +28,7 @@ html, body {
 .body-paragraph {
   padding: 3% 0%;
   line-height: 3rem;
-  font-size: 1.25vw;
+  font-size: 1.5rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 2s forwards;
 }
