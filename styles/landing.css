@@ -3,14 +3,14 @@ html, body {
 }
 
 .grid-container {
-
-  height: 80%;
+  height: 800px;
   width: 100%;
   z-index: 2;
   position: absolute;
 
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
 }
 
  @media only screen and (max-width: 600px) {
@@ -29,7 +29,7 @@ html, body {
 .body-paragraph {
   padding: 3% 0%;
   line-height: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.25vw;
   font-weight: 300;
   animation: elementFadeIn 1s ease 2s forwards;
 }
