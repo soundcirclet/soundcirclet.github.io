@@ -70,27 +70,27 @@ footer {
 }
 
 .body-title {
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 600;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
 
 .body-header1 {
   margin-top: 100px;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
 
 .body-subtitle {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
 
 .body-graphic {
   height: 1px;
-  width: 700px;
+  width: 70%;
   background-color: #ec7fa9;
   z-index: 3;
 
@@ -102,7 +102,7 @@ footer {
 .body-paragraph {
   padding: 6% 0%;
   line-height:30px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 2s forwards;
 }

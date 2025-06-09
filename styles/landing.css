@@ -3,10 +3,9 @@ html, body {
 }
 
 .grid-container {
-  margin: 20px 200px;
 
-  height: 800px;
-  width: 1000px;
+  height: 80%;
+  width: 100%;
   z-index: 2;
   position: absolute;
 
@@ -15,30 +14,22 @@ html, body {
 }
 
  @media only screen and (max-width: 600px) {
-  .grid-container {
-  margin: 20px 0;
+
+
+  footer {
+    display: none;
   }
-
-
  }
 
-
-
-
-
 .textbox-1 {
-  width: 800px;
+  width: 50%;
   margin-top: 140px;
-}
-.textbox-2 {
-  width: 800px;
-  width: 500px;
 }
 
 .body-paragraph {
   padding: 3% 0%;
-  line-height: 48px;
-  font-size: 24px;
+  line-height: 3rem;
+  font-size: 1.5rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 2s forwards;
 }
