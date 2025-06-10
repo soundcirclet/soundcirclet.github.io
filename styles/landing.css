@@ -21,7 +21,7 @@ html, body {
  }
 
 .textbox-1 {
-  width: 50%;
+  width: 40%;
   margin-top: 140px;
 }
 
@@ -52,6 +52,8 @@ html, body {
   align-items: flex-start;
   row-gap: 10%;
   opacity: 0;
+  max-width: 800px;
+
   animation: elementFadeIn 1s ease 3s forwards;
 }
 

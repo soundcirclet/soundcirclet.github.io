@@ -91,6 +91,7 @@ footer {
 .body-graphic {
   height: 1px;
   width: 70%;
+  max-width: 800px;
   background-color: #ec7fa9;
   z-index: 3;
 
