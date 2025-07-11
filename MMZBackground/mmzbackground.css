@@ -1,0 +1,21 @@
+body {
+  background-image: url(../MMZBackground/MMZAssets/Background.png)
+  
+
+}
+
+.background-fill {
+  width: 100%;
+  height: 100%;
+  position:fixed;
+
+  background-image: url(../MMZBackground/MMZAssets/backgroundpattern.svg);
+  background-size: 1920 1080;
+  animation: movingBackground 80s linear infinite;
+}
+
+
+@keyframes movingBackground {
+  from { background-position: 0 0;}
+  to { background-position: 1920px 1080px;}
+}
