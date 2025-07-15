@@ -62,9 +62,14 @@ footer {
   position: fixed;
 }
 
+.video-example {
+  margin-top: 3%;
+  animation: elementFadeIn 1s ease 3s forwards;
+}
+
 /* Text formatting */
 
-.body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1 {
+.body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example {
   margin-left: 20px;
   opacity: 0;
 }
@@ -79,6 +84,13 @@ footer {
   margin-top: 100px;
   font-size: 2.25rem;
   font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-header2 {
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: 400;
   animation: elementFadeIn 1s ease 1.6s forwards;
 }
 
@@ -101,7 +113,14 @@ footer {
 }
 
 .body-paragraph {
-  padding: 6% 0%;
+  padding: 5% 0%;
+  line-height:30px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 2s forwards;
+}
+
+li {
   line-height:30px;
   font-size: 1.125rem;
   font-weight: 300;
