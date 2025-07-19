@@ -71,6 +71,19 @@ footer {
   animation: elementFadeIn 1s ease 2s forwards;
 }
 
+.contact-box {
+  padding: 3%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  
+  text-align: center;
+  background-color: #ffb8e0;
+  
+  animation: lineFlyIn 1s ease 2.5s forwards;
+}
+
+
 /* Text formatting */
 
 .body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example, .thumbnail-container, .contact-box {

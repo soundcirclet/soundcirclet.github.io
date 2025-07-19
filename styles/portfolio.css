@@ -68,7 +68,7 @@ html, body {
 
 .scrolling-text {
   overflow: clip;
-  font-size: 170px;
+  font-size: 8.854vw;
   opacity: 0;
   animation: elementFadeIn 2s ease 1.8s forwards;
 }
@@ -81,6 +81,6 @@ html, body {
 
 @keyframes scrolling-text-move {
   to {
-    transform: translateX(-25.34%);
+    transform: translateX(-20.25%)
   }
 }

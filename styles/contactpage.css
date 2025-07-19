@@ -55,12 +55,12 @@ html, body {
 
 .scrolling-text-track {
   width: max-content;
-  animation: scrolling-text-move 20s linear infinite;
+  animation: scrolling-text-move 10s linear infinite;
 
 }
 
 @keyframes scrolling-text-move {
   to {
-    transform: translateX(-25.34%);
+    transform: translateX(-20.285%);
   }
 }
