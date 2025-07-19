@@ -43,6 +43,8 @@ html, body {
   
   text-align: center;
   background-color: #ffb8e0;
+  
+  animation: lineFlyIn 1s ease 2.5s forwards;
 }
 
 .square-figure-1 {

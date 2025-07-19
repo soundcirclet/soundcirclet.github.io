@@ -73,7 +73,7 @@ footer {
 
 /* Text formatting */
 
-.body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example, .thumbnail-container {
+.body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example, .thumbnail-container, .contact-box {
   margin-left: 20px;
   opacity: 0;
 }
