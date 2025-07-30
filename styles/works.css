@@ -18,7 +18,7 @@ html, body {
 
 .textbox-1, .textbox-2 {
   height: 100%;
-  width: 52vw;
+  width: 50%;
 }
 
 .textbox-1 {
@@ -28,13 +28,13 @@ html, body {
     margin-top: 5vh;
     display: flex;
     flex-direction: row;
-    column-gap: 5%;
+    gap: 2%;
     width: 100%;
   }
 
   .thumbnail-container {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   position:relative;
   }
 
@@ -79,28 +79,6 @@ html, body {
     left: 0;
   }
 
-  .video-title {
-    margin-top: 20px;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
-    animation: elementFadeIn 1s ease 1.6s forwards;
-  }
-
-
-.square-figure-1 {
-  position: relative;
-  z-index: 2;
-  background-color: #ffb8e0;
-  width: 70px;
-  height: 70px;
-  opacity: 0;
-
-  float: right;
-  margin: -40px;
-  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
-}
-
 
 .scrolling-text-container {
   display: inline-block;
@@ -124,4 +102,18 @@ html, body {
   to {
     transform: translateX(-17%);
   }
+}
+
+@media only screen and (max-width: 800px) { 
+
+  .thumbnail-container {
+  width: 150px;
+  height: 150px;
+  }
+
+  .thumbnail-grid {
+    flex-wrap: wrap;
+    column-gap: 10%;
+  }
+
 }

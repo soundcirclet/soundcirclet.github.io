@@ -50,10 +50,11 @@ footer {
   background-color: white;
   border-top: 1px solid #ec7fa9;
   height: 3%;
+  width: 100%;
   text-align: center;
   align-content: center;
   z-index: 10;
-  font-size: 12px;
+  font-size: 0.75rem;
 
   margin-top: auto;
 }
@@ -82,6 +83,20 @@ footer {
   
   animation: lineFlyIn 1s ease 2.5s forwards;
 }
+
+.square-figure-1 {
+  position: relative;
+  z-index: 2;
+  background-color: #ffb8e0;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0;
+
+  float: right;
+  margin: -40px;
+  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
+}
+
 
 
 /* Text formatting */
@@ -144,6 +159,20 @@ li {
   animation: elementFadeIn 1s ease 2s forwards;
 }
 
+@media only screen and (max-width: 800px) { 
+  .textbox-1, .textbox-2 {
+    width: 70%;
+    margin-top: 3.175rem;
+    margin-left: 3.175rem;
+  }
 
+  .body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example, .thumbnail-container, .contact-box {
+    margin-left: 0;
+  }
 
-
+  .square-figure-1 {
+  width: 3rem;
+  height: 3rem;
+  margin: -1.5rem;
+}
+}

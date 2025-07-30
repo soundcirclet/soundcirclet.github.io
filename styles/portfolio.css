@@ -33,9 +33,19 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 4%;
     width: 100%;
   }
+
+  .video-example {
+    height: 100%;
+    width: 45%;
+
+    min-height: 150px;
+    min-width: 260px;
+  }
+
 
   .video-title {
     margin-top: 20px;
@@ -44,21 +54,6 @@ html, body {
     font-weight: 400;
     animation: elementFadeIn 1s ease 1.6s forwards;
   }
-
-
-.square-figure-1 {
-  position: relative;
-  z-index: 2;
-  background-color: #ffb8e0;
-  width: 70px;
-  height: 70px;
-  opacity: 0;
-
-  float: right;
-  margin: -40px;
-  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
-}
-
 
 .scrolling-text-container {
   display: inline-block;
@@ -83,4 +78,14 @@ html, body {
   to {
     transform: translateX(-20.25%)
   }
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) { 
+  .video-container {
+    flex-direction: column;
+  }
+
+
 }

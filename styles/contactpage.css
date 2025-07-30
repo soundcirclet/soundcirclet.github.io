@@ -27,20 +27,6 @@ html, body {
   margin-right: 200px;
 }
 
-.square-figure-1 {
-  position: relative;
-  z-index: 2;
-  background-color: #ffb8e0;
-  width: 70px;
-  height: 70px;
-  opacity: 0;
-
-  float: right;
-  margin: -40px;
-  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
-}
-
-
 .scrolling-text-container {
   display: inline-block;
   width: 100%;

@@ -16,30 +16,10 @@ html, body {
 }
 
 .textbox-1 {
-  width: 900px;
-  margin-top: 100px;
-  margin-left: 200px;
-}
-
-.textbox-2 {
   width: 35%;
-  margin-top: 100px;
-  margin-right: 200px;
+  margin-top: 6.25rem;
+  margin-left: 12.5rem;
 }
-
-.square-figure-1 {
-  position: relative;
-  z-index: 2;
-  background-color: #ffb8e0;
-  width: 70px;
-  height: 70px;
-  opacity: 0;
-
-  float: right;
-  margin: -40px;
-  animation: elementPopIn 1s ease 1s forwards, elementRotate 8s linear 2s infinite;
-}
-
 
 .scrolling-text-container {
   display: inline-block;
