@@ -3,8 +3,6 @@ html, body {
 }
 
 .grid-container {
-  flex: 2px;
-
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -29,7 +27,7 @@ html, body {
     display: flex;
     flex-direction: row;
     gap: 2%;
-    width: 100%;
+    height: 50%
   }
 
   .thumbnail-container {
@@ -42,7 +40,6 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  vertical-align: top;
   }
 
   .thumbnail-overlay {
@@ -107,13 +104,13 @@ html, body {
 @media only screen and (max-width: 800px) { 
 
   .thumbnail-container {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   }
 
   .thumbnail-grid {
     flex-wrap: wrap;
-    column-gap: 10%;
+    gap: 8%;
   }
 
 }

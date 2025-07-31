@@ -166,13 +166,18 @@ li {
     margin-left: 3.175rem;
   }
 
+
   .body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example, .thumbnail-container, .contact-box {
     margin-left: 0;
   }
 
   .square-figure-1 {
-  width: 3rem;
-  height: 3rem;
-  margin: -1.5rem;
-}
+    width: 3rem;
+    height: 3rem;
+    margin: -1.5rem;
+  }
+
+  footer {
+    display: none;
+  }
 }

@@ -3,8 +3,6 @@ html, body {
 }
 
 .grid-container {
-  flex: 2px;
-
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -13,6 +11,7 @@ html, body {
   display: flex;
   justify-content: flex-start;
   column-gap: 5%;
+  
 }
 
 .textbox-1 {
