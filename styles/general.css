@@ -64,7 +64,7 @@ footer {
 }
 
 .video-example {
-  margin-top: 3%;
+  margin-top: 20px;
   animation: elementFadeIn 1s ease 3s forwards;
 }
 
@@ -73,9 +73,9 @@ footer {
 }
 
 .contact-box {
-  padding: 3%;
+  padding: 3% 0%;
   color: white;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 500;
   
   text-align: center;
@@ -113,7 +113,7 @@ footer {
 }
 
 .body-header1 {
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 2.25rem;
   font-weight: 600;
   animation: elementFadeIn 1s ease 1.6s forwards;
@@ -134,10 +134,8 @@ footer {
 
 .body-graphic {
   height: 1px;
-  width: 70%;
-  max-width: 800px;
+  max-width: 1000px;
   background-color: #ec7fa9;
-  z-index: 3;
 
   margin-top: 2%;
 
@@ -159,13 +157,17 @@ li {
   animation: elementFadeIn 1s ease 2s forwards;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 800px) { 
-  .textbox-1, .textbox-2 {
-    width: 70%;
-    margin-top: 3.175rem;
+  .textbox-1, .textbox-2, .title-box {
+    width: 75%;
     margin-left: 3.175rem;
   }
 
+  body{
+    zoom: 90%
+  }
 
   .body-title, .body-subtitle, .body-graphic, .body-paragraph, .body-header1, .body-header2, li, .video-example, .thumbnail-container, .contact-box {
     margin-left: 0;
@@ -180,4 +182,29 @@ li {
   footer {
     display: none;
   }
+
+  .body-title {
+    font-size: 3.5rem;
+  }
+
+  .body-header1 {
+    font-size: 2rem;
+  }
+
+  .body-header2 {
+    font-size: 2rem;
+  }
+
+  .body-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .body-paragraph {
+    font-size: 1rem;
+    padding: 10% 0%;
+  }
+
+  li {
+  font-size: 1rem;
+}
 }

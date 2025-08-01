@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
-  <body>
+  <body onload="activatePage1()">
     <header class="header">
       <div class="logo-container">
         <a href="index.html" class="website-logo">soundcirclet<span style="font-size: 50%;">.net</span></a>
@@ -30,9 +30,24 @@
         </nav>
     </header>
 
-    <div class="page-transition">
-    </div>
-
+    <header class="mobile-header">
+      <div class="logo-container">
+        <a href="index.html" class="website-logo">soundcirclet<span style="font-size: 50%;">.net</a></span>
+      </div>
+        <nav class="mobile-navbar">
+          <a href="biography.html" class="header-button">bio</a>
+          <a href="works.html" class="header-button">works</a>
+          <a href="portfolio.html" class="header-button">portfolio</a>
+          <a href="commissions.html" class="header-button">commissions</a>
+          <a href="contact.html" class="header-button">contact</a>
+        </nav>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    
     <main>
       <div class="grid-container">
         <div class="title-box">
@@ -41,6 +56,10 @@
               <div class="body-graphic">
                 <span class="square-figure-1"></span>
               </div>
+        </div>
+        <div class="page-selector">
+          <a class="page1" href="#">guidelines</a>
+          <a class="page2" href="#">examples</a>
         </div>
 
         <div class="column-grid">
@@ -118,5 +137,6 @@
       <p>©2025 dante gofar</p>
     </footer>
 
+    <script src="hamburger.js"></script>
   </body>
 </html>

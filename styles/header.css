@@ -34,18 +34,20 @@
   vertical-align: top;
   display: flex;
   text-align: center;
+  gap: 30px;
   margin: 0 10.417vw;
 
   width: 40.885vw;
   font-size: 20px;
   font-weight: 300;
-
 }
 
   .header-button {
     flex: 1;
     justify-content: center;
     align-content: center;
+
+    padding: 4%;
 
     cursor: pointer;
     transition: opacity 200ms;
@@ -56,3 +58,108 @@
 
     transition: opacity 200ms;
   }
+
+  /* Mobile Header */
+
+  .mobile-header {
+  display: none;
+
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9;
+
+  border-top: 0.5vh solid #ffb8e0;
+  border-bottom: 1px solid #ec7fa9;
+  background-color:white;
+  height: 4vw;
+  width: 100%;
+
+  min-height: 3rem;
+}
+  .mobile-navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+
+    width: 100%;
+    left: -100%;
+    top: 52px;
+    gap: 5px;
+    text-align: center;
+
+    color:white;
+    background-color: #ec7fa9;
+    font-size: 20px;
+    font-weight: 300;
+
+    transition: 0.3s;
+  }
+
+  .mobile-navbar.active {
+    left: 0;
+  }
+
+  .hamburger{
+    display: none;
+    cursor: pointer;
+    margin: 8px 5%;
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 6px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    background-color: #ec7fa9;
+  }
+
+@media only screen and (max-width: 800px) { 
+  .header {
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(9px) rotate(45deg);
+  }
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+
+.body-title {
+  font-size: 3rem;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-header1 {
+  margin-top: 100px;
+  font-size: 2.25rem;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-header2 {
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: 400;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+
+.body-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+}
+}

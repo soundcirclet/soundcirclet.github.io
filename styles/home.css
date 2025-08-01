@@ -5,8 +5,8 @@ html, body {
 .grid-container {
   margin: 20px 200px;
 
-  height: 800px;
-  width: 1500px;
+  height: 100%;
+  width: 100%;
   z-index: 2;
   position: absolute;
 
@@ -23,10 +23,8 @@ html, body {
   width: 500px;
 }
 
-.body-paragraph {
-  padding: 3% 0%;
-  line-height: 48px;
-  font-size: 24px;
-  font-weight: 300;
-  animation: elementFadeIn 1s ease 2s forwards;
+@media only screen and (max-width: 800px) { 
+  .grid-container {
+    margin: 0;
+  }
 }

@@ -1,5 +1,5 @@
 html, body {
-  height: 1650px;
+  height: 1600px;
 }
 
 .grid-container {
@@ -15,7 +15,6 @@ html, body {
 }
 
 .textbox-1, .textbox-2 {
-  height: 100%;
   width: 50%;
 }
 
@@ -111,6 +110,10 @@ html, body {
   .thumbnail-grid {
     flex-wrap: wrap;
     gap: 8%;
+  }
+
+  .overlay-text, .overlay-description {
+    font-size: 95%;
   }
 
 }
