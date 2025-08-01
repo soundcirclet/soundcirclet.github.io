@@ -162,7 +162,7 @@ li {
 @media only screen and (max-width: 800px) { 
   .textbox-1, .textbox-2, .title-box {
     width: 75%;
-    margin-left: 3.175rem;
+    margin-left: 2rem;
   }
 
   body{
