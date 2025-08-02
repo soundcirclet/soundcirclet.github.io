@@ -43,3 +43,9 @@ html, body {
     transform: translateX(-25.34%);
   }
 }
+
+@media only screen and (max-width: 800px) { 
+  .textbox-1 {
+    margin-left: 3rem;
+  }
+}
