@@ -17,14 +17,17 @@ html, body {
 .textbox-1 {
   width: 800px;
   margin-top: 140px;
+  margin-left: 2rem;
 }
 .textbox-2 {
   width: 800px;
-  width: 500px;
 }
 
 @media only screen and (max-width: 800px) { 
   .grid-container {
     margin: 0;
   }
+  .textbox-1 {
+  margin-top: 40px;
+}
 }

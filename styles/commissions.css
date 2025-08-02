@@ -89,10 +89,16 @@ html, body {
 @media only screen and (max-width: 800px) { 
   .textbox-1, .textbox-2 {
     display: none;
+    margin-left: 2rem;
+  }
+
+  .title-box {
+    margin-left: 2rem;
   }
   .page-selector {
     display: flex;
     gap: 10%;
+    margin-left: 2rem;
   }
 
   .video-example {
