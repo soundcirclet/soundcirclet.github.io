@@ -1,0 +1,146 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  font-family: Lexend, Arial;
+
+
+  border-top: 0.5vh solid #93c5fa;
+  border-bottom: 1px solid #ec7fa9;
+  background-color:white;
+  height: 4vw;
+  width: 100%;
+
+  min-height: 3rem;
+}
+
+@font-face {
+    font-family: MetropolisLight;
+    src: url(/assets/cloudrain/Metropolis-Light.woff)
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none; 
+}
+
+main {
+  flex: 1 0 auto;
+  margin-top: 10vh;
+}
+
+html, body {
+  height: 2000px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: #e4fcf7;
+
+  font-family: MetropolisLight, Arial;
+  font-size: 12px;
+  font-weight: 100;
+  color: #52a1f9;
+
+  margin: 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.crain-top {
+    display: flex;
+    position: relative;
+}
+
+.crain-image {
+    height: 100%;
+    width: 100%;
+
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%)
+}
+
+.crain-logo-container {
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 60px;
+}
+
+.crain-logo {
+    width: 1000px;
+}
+
+.crain-chara-container {
+    position: absolute;
+}
+.crain-chara {
+    width: 100%;
+}
+
+.tracklist-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+    .trackname {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        letter-spacing: 4px;
+    }
+
+    .tracklist {
+        display: flex;
+        width: 600px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .title-block {
+        font-size: 30px;
+    }
+
+    .track-duration {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+.release-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+   .release-info {
+    width: 600px;
+    letter-spacing: 4px;
+    background-color: aqua;
+   }
+
+   .art-container {
+    width: 600px;
+    background-color: lightcoral;
+   }
+
+   .cloudrain-title {
+    font-size: 64px;
+   }
+
+    .cloudrain-subtitle {
+    font-size: 28px;
+   }
+
+    .albumart {
+        width: 480px;
+    }
+    
