@@ -1,18 +1,9 @@
 .header {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  z-index: 10;
   font-family: Lexend, Arial;
-
-
-  border-top: 0.5vh solid #93c5fa;
-  border-bottom: 1px solid #ec7fa9;
-  background-color:white;
-  height: 4vw;
-  width: 100%;
-
-  min-height: 3rem;
+  color: #52a1f9;
+  border-top: 0.5vh solid #add2f8;
+  border-bottom: 1px solid #52a1f9;
 }
 
 @font-face {
@@ -35,18 +26,14 @@ main {
 }
 
 html, body {
-  height: 2000px;
+  height: 3000px;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   min-height: 100dvh;
   background-color: #e4fcf7;
 
   font-family: MetropolisLight, Arial;
-  font-size: 12px;
-  font-weight: 100;
   color: #52a1f9;
 
   margin: 0;
@@ -120,27 +107,62 @@ section {
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-top: 200px;
 }
    .release-info {
     width: 600px;
     letter-spacing: 4px;
-    background-color: aqua;
    }
 
    .art-container {
-    width: 600px;
-    background-color: lightcoral;
+    width: 500px;
    }
 
    .cloudrain-title {
-    font-size: 64px;
+    font-size: 72px;
    }
 
     .cloudrain-subtitle {
-    font-size: 28px;
+    font-size: 32px;
+    margin-bottom: 30px;
+   }
+
+   .cloudrain-link {
+    font-size: 20px;
    }
 
     .albumart {
-        width: 480px;
+        width: 450px;
     }
     
+
+.albumcredits-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 100px;
+}
+
+    .albumcredits {
+        display: flex;
+        width: 800px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .credit-line {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        letter-spacing: 4px;
+    }
+
+    .credit-type {
+        font-size: 16px;
+        line-height: 36px;
+    }
+
+    .credit-name {
+        font-size: 24px;
+    }
