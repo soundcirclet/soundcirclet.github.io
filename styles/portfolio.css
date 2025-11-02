@@ -14,6 +14,19 @@ html, body {
   column-gap: 2%;
 }
 
+.reel-container {
+  display: flex;
+  column-gap: 5%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.reelcrafter-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .textbox-1, .textbox-2 {
   height: 100%;
   width: 52vw;
