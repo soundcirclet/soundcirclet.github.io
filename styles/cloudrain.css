@@ -166,3 +166,20 @@ section {
     .credit-name {
         font-size: 24px;
     }
+
+
+    .fadeInShow {
+        animation: fade-in both;
+        animation-timeline: view();
+        animation-range: entry 20% cover 100vh;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
