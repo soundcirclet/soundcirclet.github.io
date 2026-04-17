@@ -1,17 +1,16 @@
 html, body {
-  height: 1600px;
+  height: 1800px;
 }
 
 .grid-container {
-  height: 100%;
   width: 100%;
+  height: 100%;
   z-index: 2;
   position: absolute;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  column-gap: 2%;
 }
 
 .textbox-1, .textbox-2 {
@@ -23,10 +22,14 @@ html, body {
 }
   .thumbnail-grid {
     margin-top: 5vh;
+    height: 100%;
+    row-gap: 3%;
+    column-gap: 2%;
     display: flex;
+    align-content: flex-start;
     flex-direction: row;
-    gap: 2%;
-    height: 50%
+    flex-wrap: wrap;
+
   }
 
   .thumbnail-container {
@@ -103,13 +106,12 @@ html, body {
 @media only screen and (max-width: 800px) { 
 
   .thumbnail-container {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   }
 
   .thumbnail-grid {
-    flex-wrap: wrap;
-    gap: 8%;
+    gap: 5%;
   }
 
   .overlay-text, .overlay-description {
