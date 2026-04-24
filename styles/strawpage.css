@@ -45,6 +45,15 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+
+  background-color: rgb(83, 58, 62);
+
+}
+
+.textbox-1 {
+  background-color: rgb(146, 92, 101);
+  /*padding: 0 5vw;*/
+  width: 700px;
 }
 
 /* Text formatting */
@@ -53,27 +62,30 @@ main {
   font-size: 4.5rem;
   font-weight: 600;
   animation: elementFadeIn 1s ease 1.6s forwards;
-}
-
-.body-header1 {
-  margin-top: 60px;
-  font-size: 2.25rem;
-  font-weight: 600;
-  animation: elementFadeIn 1s ease 1.6s forwards;
-}
-
-.body-header2 {
-  margin-top: 50px;
-  font-size: 2rem;
-  font-weight: 400;
-  animation: elementFadeIn 1s ease 1.6s forwards;
+  text-align: center;
 }
 
 .body-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
   animation: elementFadeIn 1s ease 1.6s forwards;
+  text-align: center
 }
+
+.body-header1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+  text-align: center
+}
+
+.body-header2 {
+  font-size: 2rem;
+  font-weight: 400;
+  animation: elementFadeIn 1s ease 1.6s forwards;
+  text-align: center
+}
+
 
 .body-graphic {
   height: 1px;
@@ -86,7 +98,6 @@ main {
 }
 
 .body-paragraph {
-  padding: 5% 0%;
   line-height:30px;
   font-size: 1.125rem;
   font-weight: 300;
