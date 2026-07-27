@@ -17,6 +17,18 @@
   }
 }
 
+@keyframes photoFlyIn {
+  from {
+    width: 0;
+    opacity: 0%;
+  }
+
+  to {
+    width: 80%;
+    opacity: 100%;
+  }
+}
+
 @keyframes elementFadeIn {
   from {
     opacity: 0%;

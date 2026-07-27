@@ -1,5 +1,5 @@
 html, body {
-  height: 1350px;
+  height: 1400px;
 }
 
 .grid-container {
@@ -18,6 +18,32 @@ html, body {
   width: 35%;
   margin-top: 6.25rem;
   margin-left: 12.5rem;
+}
+
+.textbox-2 {
+  width: 40%;
+  margin-top: 6.25rem;
+  margin-left: 10.5rem;
+}
+
+.artistPhotoContainer {
+  opacity: 0;
+  margin-top: 12.25rem;
+  width: 80%;
+  height: 80%;
+  background-color: aqua;
+  border: 10px solid white;
+  box-shadow: 50px 50px 0px 0px rgba(236, 127, 169, 0.3);
+
+  transform: rotate(5deg);
+  animation: photoFlyIn 1s ease 3s forwards;
+  
+}
+
+.artistPhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .scrolling-text-container {
